@@ -1,29 +1,48 @@
-# Documentation Hub
+# Microsoft Entra Setup and Overview Hub
 
 Atlanta, USA
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
 [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
-Last updated: 2026-07-27
+Last updated: 2026-08-04
 
 ----------
 
-Replace this text with a short description of the project. This hub is published to
-GitHub Pages with MkDocs Material and inherits the organization's layout, colors,
-and last-updated date automatically.
+This repository provides practical guidance for Microsoft Entra architecture,
+setup, governance, and operations across cloud-only and hybrid environments.
+
+![Microsoft Entra product family overview from Microsoft Learn](https://learn.microsoft.com/en-us/entra/fundamentals/media/what-is-entra/what-is-entra.png)
+
+*Source: [What is Microsoft Entra?](https://learn.microsoft.com/en-us/entra/fundamentals/whatis).* 
 
 !!! warning
-    These guides are learning material. Confirm current support, pricing, and
-    service behavior in the official documentation before production use.
+    These demos and guides are intended as a practical learning reference.
+    For official guidance, support, or deeper implementation details, use the
+    Microsoft documentation set and Microsoft support channels.
 
 <div class="guide-grid">
-  <a class="guide-card" href="overview/"><strong>Overview</strong><br>Start here: describe what the project is and who it is for.</a>
+  <a class="guide-card" href="overview/"><strong>Overview</strong><br>Start with architecture, setup model, and deployment flow.</a>
+  <a class="guide-card" href="foundation/licensing-and-prerequisites/"><strong>Plan</strong><br>Define licensing, dependencies, and rollout readiness.</a>
+  <a class="guide-card" href="secure/conditional-access-and-authentication/"><strong>Secure</strong><br>Implement authentication and policy enforcement controls.</a>
+  <a class="guide-card" href="implementation/applications-and-single-sign-on/"><strong>Integrate</strong><br>Configure application access and lifecycle automation pathways.</a>
+  <a class="guide-card" href="govern/identity-governance-and-lifecycle/"><strong>Govern</strong><br>Automate access lifecycle and governance operations.</a>
+  <a class="guide-card" href="operations/monitoring-and-health/"><strong>Operate</strong><br>Run monitoring, reporting, and continuous improvement loops.</a>
 </div>
 
-## Get started with this template
+## Recommended setup sequence
 
-1. Update `site_name`, `site_url`, `repo_url`, and `repo_name` in `mkdocs.yml`.
-2. Add pages under `docs/` and list them in the `nav` section of `mkdocs.yml`.
-3. Keep the standard header block at the top of every Markdown file.
-4. In the repository settings, set the Pages source to **GitHub Actions**.
+1. Establish tenant baseline and identity architecture decisions.
+2. Configure authentication and Conditional Access policy rings.
+3. Integrate applications, provisioning, and device identity controls.
+4. Enable governance lifecycle, reviews, and privileged access controls.
+5. Operationalize monitoring, support, and staged production rollout.
+
+## Use this hub for
+
+| Scenario | Start page |
+| --- | --- |
+| New Microsoft Entra deployment | [Overview](overview.md) |
+| Hybrid identity modernization | [Hybrid identity design](foundation/hybrid-identity-design.md) |
+| Conditional Access and authentication hardening | [Conditional Access and authentication](secure/conditional-access-and-authentication.md) |
+| Governance and audit improvement | [Identity governance and lifecycle](govern/identity-governance-and-lifecycle.md) |
