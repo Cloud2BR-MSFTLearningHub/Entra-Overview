@@ -12,7 +12,7 @@ Last updated: 2026-08-04
 This repository provides practical guidance for Microsoft Entra architecture,
 setup, governance, and operations across cloud-only and hybrid environments.
 
-![Microsoft Entra product family overview from Microsoft Learn](https://learn.microsoft.com/en-us/entra/fundamentals/media/what-is-entra/what-is-entra.png)
+![Conditional Access signal and policy enforcement diagram from Microsoft Learn](https://learn.microsoft.com/en-us/entra/identity/conditional-access/media/common-conditional-access-media/conditional-access-signal-decision-enforcement.png)
 
 *Source: [What is Microsoft Entra?](https://learn.microsoft.com/en-us/entra/fundamentals/whatis).* 
 
